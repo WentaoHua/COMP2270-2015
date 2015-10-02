@@ -1,0 +1,34 @@
+1)(a*b)'*(a'+b)*(b'+b)
+=(a*b)'*(a'+b)	Complement
+=(a'+b')*(a'+b)	DeMorgan's
+=a'+(b*b')	Distributive
+=a'		Complement	
+
+2)c+(b*c)'
+=c+(b'+c')	DeMorgan's
+=1		
+
+3)(a+c)*(a*d+a*d’)+a*c+c
+=(a+c)*(a*(d+d'))+a*c+c		Distributive
+=(a+c)*(a*1)+a*c+c		Complement
+=a+a*c+c			Absorption
+=a+c
+
+4)a’*(a+b)+(b+a*a)*(a+b’)
+=(a'+b)*(a'+a)+(b+a*a)*(a+b')	Distributive
+=(a'+b)+(b+a*a)*(a+b')		Complement
+
+5)(a’*b’)+(a’*b)+(a*b’)
+=b'*(a+a')+(a'*b)		Distributive
+=b'+(a'*b)			Complement
+=(b'+a')+(b'*b)			Distributive
+=(a*b)’				Complement/DeMorgan's
+
+8) 
+a. How many bits do you need to represent the states? 
+2 bits
+b. How many bits do you need to represent the input?
+3 bits
+
+9)
+Write a mapping from states to bits and inputs to bits?
