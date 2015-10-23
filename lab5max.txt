@@ -1,0 +1,19 @@
+.data
+in1: .word 69 # load first variable
+in2: .word 420 # load second variable
+.text
+a_true: # move instruction 
+add $v0, $s1, $r0 # save s1  to v0 
+
+
+main: # indicates start of code
+la $s5, in1 # copy RAM address of in1
+la $s6, in2 # copy RAM address of in2
+
+lw $s1, 0($s5) # load word at RAM address
+lw $s2, 0($s6) # load word at RAM address
+
+add $s3, $r0, $r0 # reset s3 variable
+slt $s3, $s1, $s2 # if in1 is less than in2,s3 =1, otherwise, s3=0
+beq $s3, $r0, a_true # if s3=0, then in1 is max
+add $v0, $s2, $r0 # if s3=1, then in2 is max
