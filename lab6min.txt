@@ -1,7 +1,3 @@
-#Minimum
-#Not sure if the commas were necessary.
-#I'm assuming these are ints
-
 LOAD R1, 0x8 #add 0x8 into R1
 LOAD R2, 0xA #add 0xA into R2
 DIV R1 R8 R10	#R1 is now the difference between a and b
