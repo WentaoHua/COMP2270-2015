@@ -1,1 +1,8 @@
-
+LOAD R1, 0x8 # 0x8 from memory into a register 1
+LOAD R2, 0xA # 0xA from memory into a register 2
+SUB R3, R1, R2
+JZL R3, mm
+STOR R2, 0x0
+XNOR R3 R1 R2
+STOR R1, 0x0
+LOAD R0 mm
