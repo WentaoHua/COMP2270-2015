@@ -1,5 +1,5 @@
-This problem has to use a Mealy machine because the state machine has 4 state bits(which are Farmer, Wolf, Goat and Cabbage)
-and the outputs will need to be a function state.
+This problem has to use a Mealy machine because the state machine has 4 state bits(which are Farmer, Wolf, Goat and Cabbage).
+The output comes out as a function state.
 
 
 Farmer	Wolf	Goat	Cabbage	x	z	F+	W+	G+	C+	
