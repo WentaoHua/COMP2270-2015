@@ -1,0 +1,3 @@
+It's a Moore machine - it doesn't matter what transition you take to get to the final state as long as you are there.
+
+Your representation looks good for PWGC, and the transitions that you have are correct. You're missing a bunch of possible transitions though. The idea was to represent all possible states, not just a single series of transitions that gets you to the answer. You're also missing a good representation of state transitions. As a result, your final circuit doesn't actually model the system. -45 
