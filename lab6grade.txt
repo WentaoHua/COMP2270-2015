@@ -1,0 +1,10 @@
+avg: you can't store a non-zero value in r0 -2
+the ADD instruction uses 3 registers, not two registers and immediate -3
+if you could change the value of r0, STOR r0 wouldn't store the average in the correct location. -3
+this program finds the sum of the array [3 4 7 2 4], but the size (in r0) isn't correct. -4
+
+min: missing line numbers in jump instructions -4
+missing a jump instruction to avoid second STOR -3
+
+
+one of your machine code lines only has 2 digits -2

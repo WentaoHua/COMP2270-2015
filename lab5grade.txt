@@ -1,0 +1,5 @@
+max: $s3 is always 0 so you get an infinite loop. $r0 holds the correct value some of the time. -5
+
+sum: $v0 is always 0x200014, and there is an infinite loop. The accumulator works correctly to start, but the loop doesn't break at the correct time. -6
+
+missing machine code -15
