@@ -1,0 +1,7 @@
+Your register file is on the right track! You need to make a few changes to make the circuit functional:
+
+- None of the inputs should be three-state.
+- The MUXes should carry 16 data bits, not 1
+- Some of the MUX circuitry (especially the top MUX) is way more connected than it should be
+- The DEMUX doesn't match up to the same registers as MUXes: inputting with 0010 stores in ra, not r2
+- r0 should always be 0!
